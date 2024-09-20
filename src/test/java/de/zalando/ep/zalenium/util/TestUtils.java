@@ -93,7 +93,7 @@ public class TestUtils {
         MutableCapabilities chromeCapabilities = new MutableCapabilities();
         chromeCapabilities.setCapability(CapabilityType.BROWSER_NAME, BrowserType.CHROME);
         chromeCapabilities.setCapability(CapabilityType.PLATFORM_NAME, Platform.LINUX);
-        chromeCapabilities.setCapability(CapabilityType.VERSION, "62.0.3202.94");
+        chromeCapabilities.setCapability(CapabilityType.VERSION, "129.0.6668.58");
         chromeCapabilities.setCapability(RegistrationRequest.MAX_INSTANCES, 1);
         chromeCapabilities.setCapability("screenResolution", screenResolution);
         chromeCapabilities.setCapability("tz", DockeredSeleniumStarter.getConfiguredTimeZone().getID());

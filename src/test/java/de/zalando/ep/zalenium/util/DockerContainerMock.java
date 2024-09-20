@@ -181,7 +181,7 @@ public class DockerContainerMock {
                     .thenReturn(Arrays.asList(container_40000, container_40001, zalenium));
 
             when(containerConfig.labels()).thenReturn(ImmutableMap.of("selenium_firefox_version", "52",
-                    "selenium_chrome_version", "58"));
+                    "selenium_chrome_version", "129"));
             when(imageInfo.config()).thenReturn(containerConfig);
             when(dockerClient.inspectContainer(null)).thenReturn(containerInfo);
             when(dockerClient.inspectContainer(zaleniumContainerId)).thenReturn(containerInfo);
